@@ -3,7 +3,7 @@
 
 ## Synopsis of the Project
 
-In this project, I use data collected about the population of squirrels in Central Park to investigate whether Vanderbilt's claim of there being a 3:1 squirrel to student ratio on campus is possible.
+In this project, I use data collected about the population of squirrels in Central Park to investigate whether Vanderbilt's claim of there being a 3:1 squirrel to student ratio on campus is possible. Analysis was done in RStudio, and visualization was done in both RStudio and Tableau.
 
 ## Introduction to the Project
 
@@ -17,15 +17,24 @@ Vanderbilt does not have available data to support their claim about there being
 &nbsp; 3) Vanderbilt and Central Park are similar in that they are both ruralish areas
 &nbsp;&nbsp;&nbsp; surrounded by more urban areas and they are in the same country
 
-My analysis began by importing and cleaning the Central Park study dataset. I only removed duplicates, among other small changes, as I was mostly interested in the number of observed squirrels being accurate, not their attributes.
+My analysis began by importing and cleaning the Central Park study dataset in RStudio. I only removed duplicates, among other small changes, as I was mostly interested in the number of observed squirrels being accurate, not their attributes.  
 
+I observed two characteristics that could help prove Vanderbilt's claim true or false: squirrels per acre and squirrels per tree. Calculating these numbers for each location led to the observation that there are ~115 squirrels per acre at Vanderbilt, compared to around ~3 for Central Park. Similarly, Vanderbilt has much more squirrels per tree than Central Park. These differences lead to possibly Vanderbilt's claim being untrue.
 
+I then collected data about the weather in these two areas (temperatures and snowfalls) to observe if these two factors caused the differences observed above. And while a comparison of these metrics for the two locations demonstrated that the climate at Vanderbilt is better suited for squirrels (warmer on average, much less snowfall), I cannot say for certain that these favorable conditions would cause there to be such a difference in squirrel population.
+
+I lastly looked at the future of the squirrel population from 2018. Assuming the claim continues to hold true, using student enrollment data from 2019-2022, I estimated the number of squirrels that were on campus in order to satisfy Vanderbilt's ratio. I then observed when Vanderbilt will have 50,000 squirrels on campus, so they can stack up on nuts. 
+
+## Visualization
+
+There were visualizations included in the analysis performed in R. I did create a story to visualize this visualization in Tableau. The link to see that is below:  
+&nbsp;&nbsp;&nbsp; *TBD*  
 
 ## Limitations
 
-The following are the limitations of the project, and how I decided to overcome them.
+The following are the limitations of the project, and how I decided to account for them.
 
-1) Vanderbilt does not have data explicitly about their squirrel population... like none
+1) Vanderbilt does not have data explicitly about their squirrel population... like none 
 &nbsp; I used student enrollment numbers from their registrar, and using there 3:1 ratio, I estimated the number of squirrels that would be on campus, provided 
 &nbsp; Vanderbilt is correct, and used that for the analysis.  
 
@@ -33,7 +42,7 @@ The following are the limitations of the project, and how I decided to overcome 
 &nbsp; I went to the most accurate of websites to find data that estimated these totals (including Wikipedia, of course). I am confident that these numbers are
 &nbsp; accurate enough to where the results of the analysis would not differ dramatically if the true (possibly unknown) numbers were used.  
 
-Given these limitations, I do not expect anyone to take the project seriously. Nor am I claiming that anyone is/isn't lying about their population ratios, or that my analysis is hard evidence that their claim is/isn't true. I was just bored, wanted to show off some of what I know in R, and use data analysis to answer a question that was *burning* in my skull for four years. This is one of the *fun* projects, if those things exist :)
+Given these limitations, I do not expect anyone to take the project seriously. Nor am I claiming that anyone is/isn't lying about their population ratios, or that my analysis is hard evidence that their claim is/isn't true. I was just bored, wanted to show off some of what I know in R, and use data analysis to attempt to answer a question that was *burning* in my skull for four years (because isn't that why data analysis is so great?). This is one of the *fun* projects, if those things exist :)
 
 ## Link to original datasets  
 
@@ -72,3 +81,7 @@ The following are the sources for some of the information that was needed to com
 
 9) https://registrar.vanderbilt.edu/documents/2022_Fall_Enrollment_Report.pdf  
 &nbsp; This source was used to obtain the number of students enrolled at Vanderbilt in 2022.   
+
+## Final Thoughts
+
+I am not sure how many (if anyone) made it this far -- or is even viewing this at all. If you chose to read through all of this, thank you for viewing! I hope it was worth your read, or at least not a *complete* waste of your time. 
