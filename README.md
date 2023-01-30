@@ -17,7 +17,7 @@ Vanderbilt does not have available data to support their claim about there being
 &nbsp; 3) Vanderbilt and Central Park are similar in that they are both ruralish areas
 &nbsp;&nbsp;&nbsp; surrounded by more urban areas and they are in the same country
 
-My analysis began by importing and cleaning the Central Park study dataset in RStudio. I only removed duplicates, among other small changes, as I was mostly interested in the number of observed squirrels being accurate, not their attributes.  
+My analysis began by importing and cleaning the Central Park study dataset in RStudio. I removed duplicates, converted data types of columns, replaced blank values, and replaced other values, to name some of what I performed. Even though most of the cleaning performed does not impact the analysis, it will make visualizing the dataset in Tableau much easier.   
 
 I observed two characteristics that could help prove Vanderbilt's claim true or false: squirrels per acre and squirrels per tree. Calculating these numbers for each location led to the observation that there are ~115 squirrels per acre at Vanderbilt, compared to around ~3 for Central Park. Similarly, Vanderbilt has much more squirrels per tree than Central Park. These differences lead to possibly Vanderbilt's claim being untrue.
 
