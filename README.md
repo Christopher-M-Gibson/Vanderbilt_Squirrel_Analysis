@@ -13,7 +13,7 @@ In 2018, while I was college hunting, I visited Vanderbilt University. During th
 
 Vanderbilt does not have data to back up their 3:1 squirrel to student ratio claim. I used data from a 2018 Central Park squirrel study and estimated student enrollment at Vanderbilt to compare the two locations. I chose Central Park for these reasons:  
 &nbsp; 1) Central Park is the only dataset about squirrel populations I could find  
-&nbsp; 2) Central Park serves as an ideal rural benchmark for comparison puroposes    
+&nbsp; 2) Central Park serves as an ideal rural benchmark for comparison purposes    
 &nbsp; 3) Vanderbilt and Central Park share similarities as rural-like locations surrounded by urban areas within the same country  
 
 I started my analysis by importing and cleaning the Central Park study data in RStudio. This involved removing duplicates, converting column data types, replacing missing values, and making other necessary changes. Although much of the cleaning had no impact on analysis, it streamlined visualizing the data in Tableau.   
